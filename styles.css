@@ -1,0 +1,57 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-header p {
+  margin: 5px 0 0;
+}
+
+/* Main Content Area */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Card Component - demonstrates Box Model */
+.card {
+  background-color: white;
+  margin: 20px 0;       /* margin = space outside the element */
+  padding: 20px;        /* padding = space inside the element */
+  border: 2px solid #ddd; /* border = around the element */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #4a90e2;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+}
